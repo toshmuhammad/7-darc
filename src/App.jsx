@@ -15,7 +15,7 @@ export default function App() {
       element: <About />,
     },
     {
-      path: "/:mandarin",
+      path: "/:name",
       element: <Details />,
     },
     {
