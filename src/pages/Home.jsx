@@ -34,7 +34,7 @@ export default function Home() {
     if (country.length === 0) return <h1>Ma'lumot mavjud emas</h1>;
 
     return <div className={style.container}>
-        <div className={style.input}>
+        <div>
             <select value={filter} onChange={handleChange} defaultValue={"Davlat bo'yicha filterlash"}>
                 <option disabled={true}>Davlat bo'yicha filterlash</option>
                 {countryList.map((el) => {
